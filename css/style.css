@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    display: flex;
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-image: url('../imagens/HERO\ BACKGROUND.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 10px 0 10px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.logo-menu{
+    width: 80%;
+    padding: 0 10px;
+}
+
+.itens-menu{
+    width: 50%;
+    text-align: right;
+    
+}
+
+.itens-menu a{
+    font-weight: bold;
+    color: #F0F4FA;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.itens-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+.itens-menu a.contact-btn{
+    background-color: #0F3FD3;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+.itens-menu a.contact-btn:hover{
+    border-bottom: 0;
+}
+
+.mockup{
+    display: block;
+    width: 100%;
+    color: #F0F4FA;
+    text-align: center;
+    padding: 4%;
+}
+
+.mockup h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.mockup img{
+    max-width: 100%;
+    
+    padding-top: 2%;
+}
+
