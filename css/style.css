@@ -79,4 +79,86 @@ section.main{
     
     padding-top: 2%;
 }
+section.marcas{
+    
+    padding: 10px;
+}
+
+section.marcas img{
+    width: calc(100% / 5);
+    
+}
+
+section.porque-nos {
+    padding: 50px 0;
+    background-color: #FBFCFE;
+}
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center > p{
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+.diferenciais{
+    display: flex;
+    margin-top: 3%;
+
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    padding: 10px 20px;
+    width: 31%;
+    margin-right: 2%;
+    border-radius: 20px;  
+}
+
+.box-diferenciais h3{
+    color: black;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.box-diferenciais p{
+    color: #7E92AC;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .diferenciais{
+        
+        flex-wrap: wrap;
+        
+    }
+
+    .box-diferenciais{       
+        width: 100%;
+        margin-right: 0;
+        border-radius: 20px; 
+       
+    }
+
+    section.marcas{
+        text-align: center;
+        
+
+    }
+
+    section.marcas img{
+        width: 50%;
+        
+        
+    }
+    
+}
 
