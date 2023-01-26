@@ -159,6 +159,90 @@ section.porque-nos > .center > p{
         
         
     }
+
+    section.beneficios .lista-beneficios, section.beneficios .img-beneficios{
+        width: 100%;
+        margin-bottom: 10px;
+        
+        
+    }
     
 }
 
+
+section.cta{
+    background-image: url('../imagens/BANNER\ IMG.svg');
+    padding: 20px 10px;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 10px;
+    background: #FFDD33;
+    color: #0F3FD3;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.beneficios{
+    padding: 3% 0;
+}
+
+.beneficios-voce{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lista-beneficios{
+    width: 40%;
+}
+
+
+.img-beneficios{
+    width: 60%;
+}
+
+.img-beneficios img{
+    max-width: 100%;
+    
+}
+
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+    margin: 25px 0 ;
+
+}
+
+.lista-beneficios p{
+    color: #7E92AC;
+    vertical-align: middle;
+    font-size: 14px;
+}
