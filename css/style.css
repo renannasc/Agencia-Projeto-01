@@ -15,7 +15,9 @@
 }
 
 section.main{
-    background-image: url('../imagens/HERO\ BACKGROUND.svg');
+    /* background-image: url('../imagens/HERO\ BACKGROUND.svg'); */
+    /* background: #3D1076; */
+    background-image: linear-gradient(120deg, #3D1076 0%, black 100%);
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -64,7 +66,7 @@ section.main{
 }
 
 .itens-menu a.contact-btn{
-    background-color: #0F3FD3;
+    background-color: #7D54DE;
     padding: 8px 10px;
     border-radius: 8px;
 }
@@ -92,7 +94,6 @@ section.main{
     padding-top: 2%;
 }
 section.marcas{
-    
     padding: 10px;
 }
 
@@ -103,10 +104,15 @@ section.marcas img{
 
 section.porque-nos {
     padding: 50px 0;
-    background-color: #FBFCFE;
+    
+    /* background-color: #e9e9e9c6; */
+    /* background-image: linear-gradient(120deg, #e9e9e9c6 0%, white 100%); */
+    background-image: linear-gradient(220deg, #3D1076 0%, black 100%);
+
 }
 
 section.porque-nos > .center > h2{
+    color: white;
     font-size: 64px;
     text-align: center;
     width: 100%;
@@ -114,7 +120,7 @@ section.porque-nos > .center > h2{
 
 section.porque-nos > .center > p{
     font-size: 16px;
-    color: #ccc;
+    color: white;
     text-align: center;
     width: 100%;
     margin-top: 1%;
@@ -132,7 +138,8 @@ section.porque-nos > .center > p{
     padding: 10px 20px;
     width: 31%;
     margin-right: 2%;
-    border-radius: 20px;  
+    border-radius: 20px; 
+    background-color: white; 
 }
 
 .box-diferenciais h3{
@@ -249,8 +256,9 @@ section.porque-nos > .center > p{
 
 
 section.cta{
-    background-image: url('../imagens/BANNER\ IMG.svg');
-    padding: 20px 10px;
+    /* background-image: url('../imagens/BANNER\ IMG.svg'); */
+    /* background-image: linear-gradient(120deg, #e9e9e9c6 0%, white 100%);    padding: 20px 10px; */
+    background-color: black;
     min-height: 200px;
     background-size: cover;
     background-position: center;
@@ -262,7 +270,7 @@ section.cta{
 section.cta h2,
 section.cta h4{
     font-weight: normal;
-    margin: 40px 0;
+    padding: 30px 0;
 }
 
 section.cta h2{
@@ -272,20 +280,25 @@ section.cta h2{
 section.cta a{
     display: inline-block;
     padding: 10px;
-    background: #FFDD33;
-    color: #0F3FD3;
+    background: #7d54de;
+    color: white;
     text-decoration: none;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 section.beneficios{
     padding: 3% 0;
+    background-image: linear-gradient(120deg, #3D1076 0%, black 100%);
+
+    
+
 }
 
 .beneficios-voce{
-    color: black;
+    color: white;
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
@@ -320,7 +333,7 @@ section.beneficios{
 }
 
 .lista-beneficios p{
-    color: #7E92AC;
+    color: white;
     vertical-align: middle;
     font-size: 14px;
 }
@@ -328,10 +341,13 @@ section.beneficios{
 section.contato{
     padding: 40px 0;
     text-align: center;
+    background-image: linear-gradient(120deg, #3D1076 0%, black 100%);
+
 }
 
 section.contato h1{
     font-size: 50px;
+    color: white;
 }
 
 .contato input[type=text],
@@ -365,7 +381,7 @@ section.contato h1{
     cursor: pointer;
     border: 0;
     border-radius: 10px;
-    background: #255AFF;
+    background: #7d54de;
     color: white;
     font-size: 16px;
 }
@@ -378,7 +394,7 @@ section.contato form{
 
 
 section.depoimentos{
-    background-color: #FBFCFE;
+    background-color: black;
     padding:40px 0;
 }
 
@@ -462,7 +478,9 @@ li.slick-active button{
 
 footer{
     padding: 10px 0;
-    background: #255AFF;
+    /* background: #255AFF; */
+    /* background-image: linear-gradient(120deg, #3D1076 0%, black 100%); */
+    background: black;
     color: white;
 }
 
