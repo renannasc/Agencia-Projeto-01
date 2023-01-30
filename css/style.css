@@ -95,18 +95,16 @@ section.main{
 }
 section.marcas{
     padding: 10px;
+    
 }
 
-section.marcas img{
+section.marcas img{    
     width: calc(100% / 5);
     
 }
 
 section.porque-nos {
     padding: 50px 0;
-    
-    /* background-color: #e9e9e9c6; */
-    /* background-image: linear-gradient(120deg, #e9e9e9c6 0%, white 100%); */
     background-image: linear-gradient(220deg, #3D1076 0%, black 100%);
 
 }
@@ -151,6 +149,11 @@ section.porque-nos > .center > p{
 .box-diferenciais p{
     color: #7E92AC;
     font-size: 13px;
+}
+
+footer{
+    background-image: linear-gradient(220deg, black 0%, #333333 100%);    
+    padding: 20px 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -234,6 +237,10 @@ section.porque-nos > .center > p{
         
     }
 
+    footer{       
+        background-image: linear-gradient(120deg, #333333 0%, #808080 100%);    padding: 20px 10px;
+    }
+
     footer .text-footer{
         width: 100%;
         text-align: center;
@@ -253,6 +260,8 @@ section.porque-nos > .center > p{
         display: block;
         margin: 5px 0;
     }
+
+   
 
 }
 
@@ -478,11 +487,9 @@ li.slick-active button{
 .slick-slide:focus { outline: none; }
 
 
-footer{
+.main-footer{
     padding: 10px 0;
-    /* background: #255AFF; */
-    /* background-image: linear-gradient(120deg, #3D1076 0%, black 100%); */
-    background: ;
+    background-image: linear-gradient(220deg, black 0%, #333333 100%);    padding: 20px 10px;
     color: white;
 }
 
